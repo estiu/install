@@ -1,21 +1,13 @@
-# Homebrew (un)installer
+## What
 
-## Install Homebrew
+Installs a fixed version of `brew` that allows installing taps as content-addressed https://raw.githubusercontent.com/ links.
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
+I took ~April 2020 as a baseline.
 
-More installation information and options at https://docs.brew.sh/Installation.html.
-
-### Linux and Windows 10 Subsystem for Linux
-
-Install Homebrew on Linux and Windows 10 Subsystem for Linux: https://docs.brew.sh/Linuxbrew.
-
-## Uninstall Homebrew
+## Uninstall
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+sudo rm -rf 
 ```
 
-Download the uninstall script and run `./uninstall --help` to view more uninstall options.
