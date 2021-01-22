@@ -577,3 +577,10 @@ if [[ -n "${HOMEBREW_ON_LINUX-}" ]]; then
 
 EOS
 fi
+
+cd /usr/local/Homebrew/Library/Taps
+mkdir homebrew
+cd homebrew
+git clone git@github.com:Homebrew/homebrew-core.git
+cd homebrew-core
+git checkout f982c05ae4
