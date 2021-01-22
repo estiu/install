@@ -509,7 +509,6 @@ ohai "Downloading and installing Homebrew..."
 
   execute "ln" "-sf" "${HOMEBREW_REPOSITORY}/bin/brew" "${HOMEBREW_PREFIX}/bin/brew"
 
-  execute "${HOMEBREW_PREFIX}/bin/brew" "update" "--force"
 )
 
 if [[ ":${PATH}:" != *":${HOMEBREW_PREFIX}/bin:"* ]]; then
