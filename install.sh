@@ -505,7 +505,7 @@ ohai "Downloading and installing Homebrew..."
   execute "git" "fetch" "origin" "--force"
   execute "git" "fetch" "origin" "--tags" "--force"
 
-  execute "git" "reset" "--hard" "origin/master"
+  execute "git" "reset" "--hard" "ad7e1d48a"
 
   execute "ln" "-sf" "${HOMEBREW_REPOSITORY}/bin/brew" "${HOMEBREW_PREFIX}/bin/brew"
 
