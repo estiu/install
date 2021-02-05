@@ -600,3 +600,9 @@ cd ..
 git clone git@github.com:Homebrew/homebrew-cask.git
 cd homebrew-cask
 git checkout 627b21e955
+cd ..
+
+git clone git@github.com:Homebrew/homebrew-services.git
+cd homebrew-services
+git checkout 2e01aab
+cd ..
