@@ -580,7 +580,7 @@ fi
 
 mkdir -p /usr/local/Homebrew/Library/Taps
 cd /usr/local/Homebrew/Library/Taps
-mkdir homebrew
+mkdir -p homebrew
 cd homebrew
 
 git clone https://github.com/Homebrew/homebrew-core.git
