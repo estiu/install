@@ -583,27 +583,27 @@ cd /usr/local/Homebrew/Library/Taps
 mkdir homebrew
 cd homebrew
 
-git clone https://github.com:Homebrew/homebrew-core.git
+git clone https://github.com/Homebrew/homebrew-core.git
 cd homebrew-core
 git checkout f982c05ae4
 cd ..
 
-git clone https://github.com:Homebrew/homebrew-cask-fonts.git cask-fonts
+git clone https://github.com/Homebrew/homebrew-cask-fonts.git cask-fonts
 cd cask-fonts
 git checkout 583ef3da
 cd ..
 
-git clone https://github.com:Homebrew/homebrew-cask-versions.git cask-versions
+git clone https://github.com/Homebrew/homebrew-cask-versions.git cask-versions
 cd cask-versions
 git checkout b82282a7e
 cd ..
 
-git clone https://github.com:Homebrew/homebrew-cask.git
+git clone https://github.com/Homebrew/homebrew-cask.git
 cd homebrew-cask
 git checkout 627b21e955
 cd ..
 
-git clone https://github.com:Homebrew/homebrew-services.git
+git clone https://github.com/Homebrew/homebrew-services.git
 cd homebrew-services
 git checkout 2e01aab
 cd ..
